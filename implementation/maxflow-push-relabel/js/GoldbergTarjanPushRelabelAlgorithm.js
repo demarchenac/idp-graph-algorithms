@@ -125,7 +125,7 @@ function GoldbergTarjanPushRelabelAlgorithm(svgSelection,svgSelection2) {
      * attach onClick listeners so we can select start/target node
      * @override
      */
-    if(!isDebug){
+    if(!isDebug()){
     this.onNodesEntered = function(selection) {
         //select source and target nodes
         selection
